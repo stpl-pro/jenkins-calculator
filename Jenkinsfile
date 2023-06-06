@@ -12,7 +12,8 @@ pipeline{
           stage('Build')
            {
              steps{
-		    sh "mvn clean package"
+                    sh 'javac -version,
+		    sh 'javac -d target src/*.java
                   }
 
 	   }
