@@ -12,8 +12,8 @@ pipeline{
           stage('Build')
            {
              steps{
-                    sh 'javac -version,
-		    sh 'javac -d target src/*.java
+                    sh 'javac -version'
+		    sh 'javac -d target src/*.java'
                   }
 
 	   }
