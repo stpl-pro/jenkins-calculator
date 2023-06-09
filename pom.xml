@@ -54,7 +54,7 @@
         <artifactId>maven-war-plugin</artifactId>
         <version>3.3.2</version>
         <configuration>
-          <webappDirectory>${project.build.directory}/${project.build.finalName}</webappDirectory>
+          <webappDirectory>/var/lib/jenkins/workspace/calculator/target/calculator.war</webappDirectory>
         </configuration>
       </plugin>
       <plugin>
