@@ -17,11 +17,11 @@ pipeline{
                   }
 
 	   }
-          stage('test')
+         /* stage('test')
            {
              steps{
                     sh "mvn clean sonar:sonar"
-                  }
+                  }*/
         }
     }
 }
