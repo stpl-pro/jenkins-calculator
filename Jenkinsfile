@@ -23,5 +23,6 @@ pipeline{
                     sh "mvn clean sonar:sonar"
                   }
         }
+    }
 }
  
