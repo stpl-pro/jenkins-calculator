@@ -53,9 +53,6 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-war-plugin</artifactId>
         <version>3.3.2</version>
-        <configuration>
-          <webappDirectory>/var/lib/jenkins/workspace/calculator/target/calculator.war</webappDirectory>
-        </configuration>
       </plugin>
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
