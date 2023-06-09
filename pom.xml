@@ -56,7 +56,6 @@
         <configuration>
 	   <webXml>src\main\webapp\WEB-INF\web.xml</webXml>
         </configuration>
-        </configuration>
       </plugin>
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
