@@ -54,7 +54,7 @@
         <artifactId>maven-war-plugin</artifactId>
         <version>3.3.2</version>
         <configuration>
-          <warName>spring-social-twitter4j</warName>
+	  <webXml>${project.basedir}\src\main\webapp\WEB-INF\web.xml</webXml>
         </configuration>
       </plugin>
       <plugin>
