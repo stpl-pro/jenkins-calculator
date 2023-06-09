@@ -25,6 +25,30 @@
           <encoding>UTF-8</encoding>
         </configuration>
       </plugin>
+       <plugin>
+	<groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-resources-plugin</artifactId>
+        <version>3.3.1</version>
+        <executions>
+          <execution>
+            <id>copy-resources</id>
+            <!-- here the phase you need -->
+            <phase>validate</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+		    <outputDirectory>/var/lib/jenkins/workspace/calculator/target/calculator</outputDirectory>
+              <resources>          
+                <resource>
+                  <directory>src/non-packaged-resources</directory>
+                  <filtering>true</filtering>
+                </resource>
+              </resources>              
+            </configuration>            
+          </execution>
+        </executions>
+      </plugin>
       <plugin>  
         <groupId>org.apache.maven.plugins</groupId>  
         <artifactId>maven-war-plugin</artifactId>  
