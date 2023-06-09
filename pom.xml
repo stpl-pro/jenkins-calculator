@@ -56,11 +56,6 @@
         <configuration>
 	   <webXml>src\main\webapp\WEB-INF\web.xml</webXml>
         </configuration>
-          <archive>
-            <manifest>
-              <addClasspath>true</addClasspath>
-            </manifest>
-          </archive>
         </configuration>
       </plugin>
       <plugin>
