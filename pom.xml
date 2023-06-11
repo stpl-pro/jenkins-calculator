@@ -88,14 +88,14 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://54.255.174.111:8081/repository/flipkart-release/</url>
+	      <name>calculator Releases Nexus Repository</name>
+	      <url>http://3.85.97.6:8081/repository/calculator-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://54.255.174.111:8081/repository/flipkart-snapshot/</url>
+	      <name>calculator Snapshot Nexus Repository </name>
+	      <url>http://3.85.97.6:8081/repository/calculator-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
