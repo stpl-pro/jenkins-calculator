@@ -23,10 +23,10 @@ pipeline{
                     sh "mvn clean sonar:sonar"
                   }
            }
-         stage('test')
+         stage('upload to nexus')
            {
              steps{
-                    sh "mvn clean sonar:sonar"
+                    sh "mvn clean deploy"
                   }
            }
     }
