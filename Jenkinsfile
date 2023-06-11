@@ -22,7 +22,13 @@ pipeline{
              steps{
                     sh "mvn clean sonar:sonar"
                   }
-        }
+           }
+         stage('test')
+           {
+             steps{
+                    sh "mvn clean sonar:sonar"
+                  }
+           }
     }
 }
 
