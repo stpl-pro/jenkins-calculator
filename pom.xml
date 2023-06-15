@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://54.144.118.135:9000/</sonar.host.url>
+		<sonar.host.url>http://3.82.203.70:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>Ruchi@123</sonar.password> 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -89,13 +89,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>calculator Releases Nexus Repository</name>
-	      <url>http://44.202.43.75:9980/repository/calculator-Release/</url>
+	      <url>http://52.87.180.209:9980/repository/calculator-Release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>calculator Snapshot Nexus Repository </name>
-	      <url>http://44.202.43.75:9980/repository/calculator-Snapshot/</url>
+	      <url>http://52.87.180.209:9980/repository/calculator-Snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
